@@ -1,0 +1,22 @@
+1. Package.json criado com script: npm init -y
+2. Dependencias:
+  - Dep. de desenvolvedor: npm install nodemon -D
+  - Micro framework Express: npm install express
+  - Banco de dados relacional: npm install knex
+      -criar arquivo knex: npx knex init
+  - Banco de dados sqlite: npm install sqlite3
+3. executar: node index.js
+4. Aprendizado de conceitos:
+  - Rota e Recursos: Rota é o caminho completo; Recurso é o que vem depois da rota.
+  - Metodos HTTP:
+    - GET: buscar/listar uma informacao no backend
+    - POST: Criar uma informacao no backend
+    - PUT: Alterar uma informacao no backend
+    - DELETE: Delete uma informacao no backend
+
+5. Tipo de parametros
+  - Query Params: Parametros nomeados enviados na rota após "?"(Filtros, paginacao)
+  - Route Params: Parametros utilizados para identificar recursos
+  - Request body: O corpo da requisiçao, utilizados para criar ou alterar recursos
+
+ 
