@@ -1,3 +1,5 @@
+Construir layouts: figma.com
+
 1. Package.json criado com script: npm init -y
 2. Dependencias:
   - Dep. de desenvolvedor: npm install nodemon -D
@@ -5,7 +7,8 @@
   - Banco de dados relacional: npm install knex
       -criar arquivo knex: npx knex init
   - Banco de dados sqlite: npm install sqlite3
-3. executar: node index.js
+  - Cors: npm install cors
+3. executar: npm start
 4. Aprendizado de conceitos:
   - Rota e Recursos: Rota é o caminho completo; Recurso é o que vem depois da rota.
   - Metodos HTTP:
@@ -19,4 +22,19 @@
   - Route Params: Parametros utilizados para identificar recursos
   - Request body: O corpo da requisiçao, utilizados para criar ou alterar recursos
 
- 
+6. Entidades:
+  6.1. ONG
+  6.2. Caso(incident)
+
+7. Funcionalidades:
+  - Login de ONG
+  - Logout de ONG
+  - Cadastro de ONG
+  - Cadastrar novos casos 
+  - Deletar casos
+  - Listar casos especificos de uma ONG
+  - Listar todos os casos
+  - Entrar em contato com a ONG 
+
+8. Criando migrations: npx knex migrate:make create_ongs
+9. Criando as tabelas das migrations: npx knex migrate:latest
