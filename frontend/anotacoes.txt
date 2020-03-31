@@ -2,5 +2,5 @@
 2. Dependencias:
   -  React Icons: npm install react-icons
   -  React Router Dom: yarn add react-router-dom
-
-  pausado em 57:56
+  -  Axios: yarn add axios 
+ 
