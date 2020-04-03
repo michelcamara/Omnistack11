@@ -3,5 +3,5 @@
     - React Navigation 5: yarn add @react-navigation/native
     - Expo Constants:  expo install expo-constants
     - Expo Mail Composer: expo install expo-mail-composer 
-
-aula pausada em 1:07:02
+    - Axios: yarn add axios
+    - intl: yarn add intl
