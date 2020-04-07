@@ -55,7 +55,7 @@ O aplicativo consiste é uma lista que mostra ONGS que precisam de ajuda com alg
     4. Axios
     5. Intl
 
-<img  alt="Be The Hero Mobile" src="./img/MobileAll.png" align="center" height="550px"/>
+<img  alt="Be The Hero Mobile" src="./img/MobileAll.png" align="center" />
 
 <strong>Contato</strong>
 <p>michelvictor16@gmail.com</p>
